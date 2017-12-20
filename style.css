@@ -15,7 +15,6 @@ html,body,h1,h2,h3,h4,h5,h6 {
 
 .nav_bar ul li {
     float: left;
-    font-size: 16px;
     font-weight: bold;
     margin-right: 10px;
 }
@@ -25,7 +24,7 @@ html,body,h1,h2,h3,h4,h5,h6 {
     color: #009688;
     border-radius: 2px !important;
     background-color: #fff!important;    
-    width: 75px;
+    width: 200px;
     display: block;
     text-align: center;
 }
