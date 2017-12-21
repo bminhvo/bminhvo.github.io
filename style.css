@@ -46,33 +46,55 @@ html,body,h1,h2,h3,h4,h5,h6 {
     height: auto;
 }
 
-body {margin: 0;}
-
-ul.topnav {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
 }
 
-ul.topnav li {float: left;}
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
 
-ul.topnav li a {
+li:last-child {
+    border-right: none;
+}
+
+li a {
     display: block;
-    color: white;
+    color: #666;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+li a:hover:not(.active) {
+    background-color: #111;
+}
 
-ul.topnav li a.active {background-color: #4CAF50;}
+.active {
+    background-color: #4CAF50;
+}
 
-ul.topnav li.right {float: right;}
+@media screen and (max-width: 900px) {
+    ul {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul li a {
+        float: left;
+        padding: 15px;
+    }
+}
 
-@media screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
+@media screen and (max-width: 400px) {
+    ul li a {
+        text-align: center;
+        float: none;
+    }
 }
