@@ -47,22 +47,3 @@ html,body,h1,h2,h3,h4,h5,h6 {
     color: #000000;
     height: auto;
 }
-
-@media screen and (max-width: 900px) {
-    .nav_bar ul {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    .nav_bar ul li a {
-        float: left;
-        padding: 15px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .nav_bar ul li a {
-        text-align: center;
-        float: none;
-    }
-}
