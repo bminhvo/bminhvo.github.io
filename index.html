@@ -39,6 +39,8 @@
                     <p><i class="fa fa-facebook-official fa-fw w3-margin-right w3-large midnight-blue"></i><a href="https://www.facebook.com/Minh.B.Vo">/Minh.B.Vo</a></p>
                     <p><i class="fa fa-github fa-fw w3-margin-right w3-large midnight-blue"></i><a href="https://github.com/bminhvo">/bminhvo</a></p>
                     <hr>
+                    <audio id="myAudio" src="docs/bensound-summer.mp3" preload="auto"></audio>
+                    <p><i class="fa fa-music fa-fw w3-margin-right w3-large midnight-blue"></i><a onClick="togglePlay()" style="cursor:pointer">Some music?</a></p>
                 </div>
             </div></br>
 
@@ -50,11 +52,11 @@
             <div id="content">
                 <ul class="topnav animated fadeInDown">
                     <li><a class="active">About</a></li>
-                    <li><a href="education" id="education">Education</a></li>
-                    <li><a href="work" id="work">Work Experience</a></li>
-                    <li><a href="projects" id="projects">Projects & Researches</a></li>
-                    <li><a href="skills" id="skills">Skills & Interests</a></li>
-                    <li><a href="activities" id="activities">Activities & Leadership</a></li>
+                    <li><a id="education" style="cursor:pointer">Education</a></li>
+                    <li><a id="work" style="cursor:pointer">Work Experience</a></li>
+                    <li><a id="projects" style="cursor:pointer">Projects & Researches</a></li>
+                    <li><a id="skills" style="cursor:pointer">Skills & Interests</a></li>
+                    <li><a id="activities" style="cursor:pointer">Activities & Leadership</a></li>
                 </ul>
                 </br>
             
@@ -92,13 +94,11 @@
 <footer class="w3-container midnight-blue-background w3-center w3-margin-top animated fadeInUp" link="white">
     </br>
     <p style="color: white">Made with improvements and alterations from  w3schools template.</p>
-    <audio id="myAudio" src="docs/bensound-summer.mp3" preload="auto"></audio>
-    <p><i class="fa fa-music fa-fw w3-margin-right w3-large" style="color:white"></i><a onClick="togglePlay()" style="cursor:pointer; color:white">Some music?</a></p>
     <p><a href="https://www.bensound.com/" style="color:white">Royalty Free Music from Bensound</a></p>
     </br>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/music.js"></script>
 <script type="text/javascript" src="js/jquery.js"></script>
